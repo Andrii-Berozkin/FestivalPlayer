@@ -13,7 +13,7 @@ Have fun to look out source code, download, play with it, or do anything you wan
 Here you can [watch the SHOWCASE](https://youtu.be/72h084jQ2EI).
 
 ## Settings explained
-All settings are inside [FestivalPlayer_Settings.json](https://github.com/Andrii-Berozkin/FestivalPlayer/blob/master/FestivalPlayer_Settings.json).
+All settings are inside [FestivalPlayer_Settings.json](https://github.com/Andrii-Berozkin/FestivalPlayer/blob/master/FestivalPlayer_Settings.json). **!__IMPORTANT this json file is only for showcase, the real one will be created at first run by a program where the executable is__!**
 ### The most important one is -
  - **ReactionDelayMS** - it defines how long it takes to keys be pressed after image capturing and filtering. You want to adjust this value first one because it`s depends on user CPU and overall load on PC. Probably completely unique for everyone.
  - **bEnableDebug** - print or not pressed keys in console.
