@@ -1,0 +1,609 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/opencv4-x64-windows-4.8.0#15-e51feea4-be98-4114-9052-4b910f7d3229",
+  "name": "opencv4:x64-windows@4.8.0#15 11847d3b53b0e5494ec0ca3f8c7c38f4309fa579b2d31ce1c8e3f0bd71bd7a93",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-8a83681f921b10d86ae626fd833c253f4f8c355b"
+    ],
+    "created": "2024-03-25T10:09:56Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-5"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-6"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-7"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-8"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-9"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-10"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-11"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-12"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-13"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-14"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-15"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-16"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-17"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-18"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-19"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-20"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-21"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-22"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-23"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-5",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-6",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-7",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-8",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-9",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-10",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-11",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-12",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-13",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-14",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-15",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-16",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-17",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-18",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-19",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-20",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-21",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-22",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-23",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "opencv4",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "4.8.0#15",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@ec4e040d476cee60b2fc21a1f847d30905ac9726",
+      "homepage": "https://github.com/opencv/opencv",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "computer vision library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "opencv4:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "11847d3b53b0e5494ec0ca3f8c7c38f4309fa579b2d31ce1c8e3f0bd71bd7a93",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "opencv/opencv",
+      "downloadLocation": "git+https://github.com/opencv/opencv@4.8.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "48738c3e7460a361274357aef1dd427082ccd59f749d6317d92a414b3741ce6116ea15ed4fedd2d47a25e456c705f3ba114357558646097bfc0e6dba9b3b865c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-resource-2",
+      "name": "opencv4-e5e1a3bfdea96bebda2ad963bc8f6cf17930aef7.patch",
+      "packageFileName": "opencv4-e5e1a3bfdea96bebda2ad963bc8f6cf17930aef7.patch",
+      "downloadLocation": "https://github.com/opencv/opencv/commit/e5e1a3bfdea96bebda2ad963bc8f6cf17930aef7.patch?full_index=1",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8ae2544e4a7ece19efe21261acc183f91202ac5352c1ac42fb86bf33d698352eff1b8962422b092240f4e8c7a691e9aa5ef20d6070adcd37e92bb94c6010ce56"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0001-disable-downloading.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e4abe6319f4d238debbe66b2012d0af0faeccd2ee599fcc0f8e4106143eb1ec3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0002-install-options.patch",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3952384a789108c040221e5d477981153db8c0429084fb2d6b8232749b825ca7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0003-force-package-requirements.patch",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f0011513c3287371f0d0a95e78296dee4a81b56d2522ae5aa690550d4702af8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0004-fix-eigen.patch",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae2788b4307f02236ab570946d77375668eb60c7bd458c39e67b51d2856b26e1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0005-fix-policy-CMP0057.patch",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "356ba55699f1ff2956f4605158d241f004e11ada9b716fe0a7b7cbc0afff2c31"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0006-fix-uwp.patch",
+      "SPDXID": "SPDXRef-file-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19769d13bd81002a0452135d61d6b499bbf89b63d29509e5215fff3994632dd7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0007-fix-hdf5.patch",
+      "SPDXID": "SPDXRef-file-6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "18063963142a2fbaae538cb520ea3955b3d4bb92a6ed8e9159d0c8438b7d8fbe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0008-devendor-quirc.patch",
+      "SPDXID": "SPDXRef-file-7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "381ed98ff55e0a5f388ead9ce9683423556a7c59fbeffb0638f5c966303b0007"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0009-fix-protobuf.patch",
+      "SPDXID": "SPDXRef-file-8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fd53eea1701542913c1f238317d5603ebdada2bcb61d5d1b143021a529f8023d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0010-fix-uwp-tiff-imgcodecs.patch",
+      "SPDXID": "SPDXRef-file-9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7492617434f42f6f34b1c5c4f7967f0232f7f753d7660bacce6ac2ae180d1001"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0011-remove-python2.patch",
+      "SPDXID": "SPDXRef-file-10",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae88b429ebf1cd2e2c0cac6b29e94ec7f1395ddc2093fb9a42626299276c2a8e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0012-fix-zlib.patch",
+      "SPDXID": "SPDXRef-file-11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "20da3a551d9144085b6d4df61ab5087eddbb194c5185445e853fda4e9e827e03"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0015-fix-freetype.patch",
+      "SPDXID": "SPDXRef-file-12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7715435725ebd65aece30416ed89b5e8019808da2509844fff8f90db6481197f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0016-fix-freetype-contrib.patch",
+      "SPDXID": "SPDXRef-file-13",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a67a182017fa3b696b1560d7f024bcdb6cb6030cc3466f2c1177951f7c18bd95"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0017-fix-flatbuffers.patch",
+      "SPDXID": "SPDXRef-file-14",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "79a5440b735d8a84be1f02d49f7f85ffa09e49d666728c3acaa45a4308a69965"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0018-fix-depend-tesseract.patch",
+      "SPDXID": "SPDXRef-file-15",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf1fe810eb2473cee0d8b8131aaa7940c2719823cbc238df3012f598c214ae32"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0019-fix-ogre-dependency.patch",
+      "SPDXID": "SPDXRef-file-16",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a009a809f7027d63f44c5477788f66627022856994e28cabaea3128d74f60d7f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0019-missing-include.patch",
+      "SPDXID": "SPDXRef-file-17",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19f2215a0693deb5ab209f7503e9d4916e341340be6a6f814691e8fb1588da61"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0020-fix-compat-cuda12.2.patch",
+      "SPDXID": "SPDXRef-file-18",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "770f32b80212b58a6e2d41d998e5a8d4a389b5e4005911c514f28fd13325ebb8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0021-static-openvino.patch",
+      "SPDXID": "SPDXRef-file-19",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ca40ad71c460e308c3d2a1ac099d997a8f1de5031d5b9c3eeaad2047a62dfbc3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/0022-fix-supportqnx.patch",
+      "SPDXID": "SPDXRef-file-20",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c31f6ee8826b652505247dce9aceb7dd46a19bad86958939c0078b5bd801dbb0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/portfile.cmake",
+      "SPDXID": "SPDXRef-file-21",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "576b04c32d0cacb7c5142a64cd487962051a2baf189e51b6adcc1ad9693ff711"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/usage.in",
+      "SPDXID": "SPDXRef-file-22",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5181a767ae8335b0178d550a36dbe1f3598453b8194fcedf587ac3d96c2124fe"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/ec4e040d476cee60b2fc21a1f847d30905ac9726/vcpkg.json",
+      "SPDXID": "SPDXRef-file-23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0805b182d216aae2a4286c338c2f2856ee3a90053ed7e37dd5a58c89f9063a6f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

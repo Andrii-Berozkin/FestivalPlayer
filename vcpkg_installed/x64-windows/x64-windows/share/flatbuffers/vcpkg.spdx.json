@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/flatbuffers-x64-windows-23.5.26#1-85f12bd3-eba0-4935-9d0c-cd3f5a2ba397",
+  "name": "flatbuffers:x64-windows@23.5.26#1 2a5e26fd7772936209cee5a83dde2b77d4ec70e11dfbd796d93ebd6ed02f40b6",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-8a83681f921b10d86ae626fd833c253f4f8c355b"
+    ],
+    "created": "2024-03-25T10:03:33Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "flatbuffers",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "23.5.26#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@2f827d9a5f37614af7cdb44c15075dbaac88d740",
+      "homepage": "https://google.github.io/flatbuffers/",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Memory Efficient Serialization Library\nFlatBuffers is an efficient cross platform serialization library for games and other memory constrained apps. It allows you to directly access serialized data without unpacking/parsing it first, while still having great forwards/backwards compatibility.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "flatbuffers:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "2a5e26fd7772936209cee5a83dde2b77d4ec70e11dfbd796d93ebd6ed02f40b6",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "google/flatbuffers",
+      "downloadLocation": "git+https://github.com/google/flatbuffers@v23.5.26",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cd0a5efad8016e1217d01a181d6b02e546f5693c6412361bfeaee820d5dfe5e2a424cee1963270e851c1a4f936ae8a0032a51c5bb16ee19313e0ecc77dc4ba31"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/2f827d9a5f37614af7cdb44c15075dbaac88d740/fix-uwp-build.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8a363f9e6052511d97a477795304bd14f0009f2ee9ba0423dedc4032d98351de"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/2f827d9a5f37614af7cdb44c15075dbaac88d740/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "aebee77064bac67bad3ed02fe5771fa3e69bcada052e8b6b1025e63b3409d151"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/2f827d9a5f37614af7cdb44c15075dbaac88d740/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "adabf80e23fb195d764af81fa9e055c6c3732fc8eb1cba8163c0fe9b14a07aea"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

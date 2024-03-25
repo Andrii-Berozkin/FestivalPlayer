@@ -1,0 +1,10 @@
+Package: opencv4
+Version: 4.8.0
+Port-Version: 15
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-get-python-packages, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 11847d3b53b0e5494ec0ca3f8c7c38f4309fa579b2d31ce1c8e3f0bd71bd7a93
+Description: computer vision library
+Default-Features: default-features
+Status: install ok half-installed

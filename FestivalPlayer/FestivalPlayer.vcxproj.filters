@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Public">
+      <UniqueIdentifier>{ceca5212-b32f-4ad1-8aa3-01a76b62bda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Private">
+      <UniqueIdentifier>{d3328ca1-a8f5-4ecd-b28e-5bfbcbac5ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Public\ScreenCapture">
+      <UniqueIdentifier>{d720c5ba-5cdf-49df-be2f-f0b3247e7cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Private\ScreenCapture">
+      <UniqueIdentifier>{13a23348-1f82-450e-ab4f-577efe71e6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Public\ImageResolver">
+      <UniqueIdentifier>{d17d580c-6eb9-4644-9162-60025c9e7a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Public\InputController">
+      <UniqueIdentifier>{85e11295-4c82-4e00-92c5-766144388fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Private\InputController">
+      <UniqueIdentifier>{1522f2e6-24f5-4bce-915c-99d2ec528642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Private\ProjectSettings">
+      <UniqueIdentifier>{f6bf948d-4f0b-42ec-b51e-4ba81bcbd536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Public\ProjectSettings">
+      <UniqueIdentifier>{e517e5bc-2f00-4faa-a712-2a6bbd142c7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FestivalPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Private\ScreenCapture\ScreenCapture.cpp">
+      <Filter>Source Files\Private\ScreenCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Private\InputController\InputController.cpp">
+      <Filter>Source Files\Private\InputController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Private\ProjectSettings\ProjectSettings.cpp">
+      <Filter>Source Files\Private\ProjectSettings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Public\ScreenCapture\ScreenCapture.h">
+      <Filter>Source Files\Public\ScreenCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Public\ImageResolver\ImageResolver.h">
+      <Filter>Source Files\Public\ImageResolver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Public\InputController\InputController.h">
+      <Filter>Source Files\Public\InputController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Public\ProjectSettings\ProjectSettings.h">
+      <Filter>Source Files\Public\ProjectSettings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FestivalPlayer_Settings.json">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

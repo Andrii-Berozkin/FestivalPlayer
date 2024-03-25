@@ -1,0 +1,10 @@
+x64-windows/
+x64-windows/share/
+x64-windows/share/opencv/
+x64-windows/share/opencv/OpenCVConfig-version.cmake
+x64-windows/share/opencv/OpenCVConfig.cmake
+x64-windows/share/opencv/OpenCVModules-debug.cmake
+x64-windows/share/opencv/OpenCVModules-release.cmake
+x64-windows/share/opencv/OpenCVModules.cmake
+x64-windows/share/opencv/vcpkg.spdx.json
+x64-windows/share/opencv/vcpkg_abi_info.txt

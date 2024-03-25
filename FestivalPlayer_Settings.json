@@ -1,0 +1,33 @@
+{
+	"CaptureSettings" : 
+	{
+		"CaptureSizeFromTotal" : 
+		{
+			"SizeMultiplierX" : 0.265,
+			"SizeMultiplierY" : 0.0150
+		},
+
+		"CapturePos" : 
+		{
+			"ScreenPercentX" : 0.503, 
+			"ScreenPercentY" : 0.5
+		},
+
+		"MusicNoteSizeXMultiplier" : 0.2
+	},
+	"FilterSettings" : 
+	{
+		"ColorTolerance" : 11,
+		"MusicNoteTargetColor" : 
+		{
+			"R" : 250,
+			"G" : 235,
+			"B" : 250
+		}
+	},
+	"InputSettings" :
+	{
+		"bEnableDebug" : true,
+		"ReactionDelayMS" : 615
+	}
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/opencv-x64-windows-4.8.0#1-a88b5c97-f9eb-4cb6-a3f7-75e090f71fcb",
+  "name": "opencv:x64-windows@4.8.0#1 8fd3f2deb12c34d51bbd506993146ee6eaf915b9d46cd10b3d19a249b8ed67db",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-8a83681f921b10d86ae626fd833c253f4f8c355b"
+    ],
+    "created": "2024-03-25T10:10:10Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "opencv",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "4.8.0#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@bc3a2d25b8cca6c318cdd710381ca152b18ae3cd",
+      "homepage": "https://github.com/opencv/opencv",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Computer vision library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "opencv:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "8fd3f2deb12c34d51bbd506993146ee6eaf915b9d46cd10b3d19a249b8ed67db",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/bc3a2d25b8cca6c318cdd710381ca152b18ae3cd/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "df79f6ac816e9d5a977cbd6b51abf341fe5c11f3bf69b36a69a4a85349a99f03"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/manar/AppData/Local/vcpkg/registries/git-trees/bc3a2d25b8cca6c318cdd710381ca152b18ae3cd/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9abffadb30d7f2e8b49c55e508be359dee53f54e032458160253d00499c48bd0"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Package: opencv
+Feature: default-features
+Depends: opencv4
+Architecture: x64-windows
+Multi-Arch: same
+Description: Platform-dependent default features
+Status: install ok half-installed
