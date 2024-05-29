@@ -17,6 +17,7 @@ More over, here is a fun & interesting explanation how it was made. From the ide
 [![Destroying Fortnite Festival with an AI](https://img.youtube.com/vi/txrdp4f8hXQ/0.jpg)](https://www.youtube.com/watch?v=txrdp4f8hXQ)
 
 But wait, here is even more. Here you can find out how I managed to modify code and bring this Autoclicker from digital space to real life.
+
 [![Autoclicker IRL](https://img.youtube.com/vi/66jdsxcEGXU/0.jpg)](https://www.youtube.com/watch?v=66jdsxcEGXU)
 
 ## Settings explained
