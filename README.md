@@ -11,7 +11,7 @@ Have fun to look out source code, download, play with it, or do anything you wan
 
 ### Hey,
 You can also find it interesting to watch how this bot perfoms on a real task.
-[![Bot Vs. Fornite Festival](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Bot Vs. Fornite Festival](https://img.youtube.com/vi/72h084jQ2EI/0.jpg)](https://www.youtube.com/watch?v=72h084jQ2EI)
 
 More over, here is a fun & interesting explanation how it was made. From the idea to the final version of it.
 [![Destroying Fortnite Festival with an AI](https://img.youtube.com/vi/txrdp4f8hXQ/0.jpg)](https://www.youtube.com/watch?v=txrdp4f8hXQ)
