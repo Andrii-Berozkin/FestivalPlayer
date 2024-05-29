@@ -10,7 +10,14 @@ But it really depends on song to play, some works better then another one. Anywa
 Have fun to look out source code, download, play with it, or do anything you want.
 
 ### Hey,
-Here you can [watch the SHOWCASE](https://youtu.be/72h084jQ2EI).
+You can also find it interesting to watch how this bot perfoms on a real task.
+[![Bot Vs. Fornite Festival](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+More over, here is a fun & interesting explanation how it was made. From the idea to the final version of it.
+[![Destroying Fortnite Festival with an AI](https://img.youtube.com/vi/txrdp4f8hXQ/0.jpg)](https://www.youtube.com/watch?v=txrdp4f8hXQ)
+
+But wait, here is even more. Here you can find out how I managed to modify code and bring this Autoclicker from digital space to real life.
+[![Autoclicker IRL](https://img.youtube.com/vi/66jdsxcEGXU/0.jpg)](https://www.youtube.com/watch?v=66jdsxcEGXU)
 
 ## Settings explained
 All settings are inside [FestivalPlayer_Settings.json](https://github.com/Andrii-Berozkin/FestivalPlayer/blob/master/FestivalPlayer_Settings.json). ***!IMPORTANT this json file is only for showcase, the real one will be created at first run by a program where the executable is!***
